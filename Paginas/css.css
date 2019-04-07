@@ -1,0 +1,119 @@
+html{
+  font-family:georgia;
+}
+
+#index{
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: underline;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+  margin: 0;
+  padding: 1%;
+  font-size: 130%;
+  text-decoration: underline;
+  color: black;
+}
+
+header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  left: 5%;
+  overflow: hidden;
+  background-color: #f3f3f3;
+  position: fixed;
+  top: 10%;
+  width: 90%;
+  border-radius: 10px;
+  border-width:5%;
+  border-style:solid;
+  border-top: 0%;
+  border-left: 0%;
+  }
+
+
+header li {
+  float: left;
+  padding: 0.1% 7.58%;
+  }
+#guia
+{
+  border-right: 0.2em solid #bbb;
+  border-left: 0.2em solid #bbb;
+  border-color: black
+}
+
+header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0% 17.7%;
+  text-decoration: none;
+  color: black
+}
+
+header li:hover:not(.active) {
+  background-color: #54a4e5;
+}
+
+header li a:hover
+{
+  color: white;
+  }
+
+.active {
+  background-color: #1828db;
+  color: white;
+}
+
+.cuerpo
+{
+  margin-top: 15%;
+  font-size: 15px;
+  width: 80%;
+  margin-left: 5%
+}
+
+.piedepagina
+{
+  bottom: 0;
+  font-size: 10px;
+  display: block;
+  position: absolute;
+  margin: 1%
+}
+
+.piedepagina p{
+  padding: : -2.5%;
+  display: grid;
+}
+
+#logo{
+padding-top: 10%;
+  padding-left: 5%;
+  width: 200px;
+  height: 100px;
+}
+
+.index
+{
+  padding-left: 5%;
+}
+
+.twitter
+{
+  bottom: 1%;
+  left: 1%;
+  position: fixed;
+}
+
+.contador{
+  bottom: 1%;
+  right: 1%;
+  position: fixed;
+  display: block;
+}
